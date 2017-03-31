@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1759A311E2FFA5A0096B381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1759A301E2FFA5A0096B381 /* main.m */; };
+		B1759A341E2FFA5A0096B381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1759A331E2FFA5A0096B381 /* AppDelegate.m */; };
+		B1759A3B1E2FFA5A0096B381 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B1759A3A1E2FFA5A0096B381 /* GameScene.m */; };
+		B1759A3E1E2FFA5A0096B381 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1759A3D1E2FFA5A0096B381 /* GameViewController.m */; };
+		B1759A411E2FFA5A0096B381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1759A3F1E2FFA5A0096B381 /* Main.storyboard */; };
+		B1759A431E2FFA5A0096B381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1759A421E2FFA5A0096B381 /* Assets.xcassets */; };
+		B1759A461E2FFA5A0096B381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1759A441E2FFA5A0096B381 /* LaunchScreen.storyboard */; };
+		B1759A4F1E2FFC920096B381 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1759A4E1E2FFC920096B381 /* CoreBluetooth.framework */; };
+		B1759A511E2FFC990096B381 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1759A501E2FFC990096B381 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1759A2C1E2FFA5A0096B381 /* ZenState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenState.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1759A301E2FFA5A0096B381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1759A321E2FFA5A0096B381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1759A331E2FFA5A0096B381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1759A391E2FFA5A0096B381 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B1759A3A1E2FFA5A0096B381 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B1759A3C1E2FFA5A0096B381 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B1759A3D1E2FFA5A0096B381 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B1759A401E2FFA5A0096B381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1759A421E2FFA5A0096B381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1759A451E2FFA5A0096B381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1759A471E2FFA5A0096B381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1759A4E1E2FFC920096B381 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B1759A501E2FFC990096B381 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1759A291E2FFA5A0096B381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1759A511E2FFC990096B381 /* CoreMotion.framework in Frameworks */,
+				B1759A4F1E2FFC920096B381 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1759A231E2FFA590096B381 = {
+			isa = PBXGroup;
+			children = (
+				B1759A2E1E2FFA5A0096B381 /* ZenState */,
+				B1759A2D1E2FFA5A0096B381 /* Products */,
+				B1759A4D1E2FFC920096B381 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1759A2D1E2FFA5A0096B381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1759A2C1E2FFA5A0096B381 /* ZenState.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1759A2E1E2FFA5A0096B381 /* ZenState */ = {
+			isa = PBXGroup;
+			children = (
+				B1759A391E2FFA5A0096B381 /* GameScene.h */,
+				B1759A3A1E2FFA5A0096B381 /* GameScene.m */,
+				B1759A3C1E2FFA5A0096B381 /* GameViewController.h */,
+				B1759A3D1E2FFA5A0096B381 /* GameViewController.m */,
+				B1759A2F1E2FFA5A0096B381 /* Supporting Files */,
+			);
+			path = ZenState;
+			sourceTree = "<group>";
+		};
+		B1759A2F1E2FFA5A0096B381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1759A321E2FFA5A0096B381 /* AppDelegate.h */,
+				B1759A331E2FFA5A0096B381 /* AppDelegate.m */,
+				B1759A421E2FFA5A0096B381 /* Assets.xcassets */,
+				B1759A471E2FFA5A0096B381 /* Info.plist */,
+				B1759A441E2FFA5A0096B381 /* LaunchScreen.storyboard */,
+				B1759A3F1E2FFA5A0096B381 /* Main.storyboard */,
+				B1759A301E2FFA5A0096B381 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1759A4D1E2FFC920096B381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1759A501E2FFC990096B381 /* CoreMotion.framework */,
+				B1759A4E1E2FFC920096B381 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1759A2B1E2FFA5A0096B381 /* ZenState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1759A4A1E2FFA5A0096B381 /* Build configuration list for PBXNativeTarget "ZenState" */;
+			buildPhases = (
+				B1759A281E2FFA5A0096B381 /* Sources */,
+				B1759A291E2FFA5A0096B381 /* Frameworks */,
+				B1759A2A1E2FFA5A0096B381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenState;
+			productName = ZenState;
+			productReference = B1759A2C1E2FFA5A0096B381 /* ZenState.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1759A241E2FFA590096B381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "LASERNA CONDADO, DANIEL";
+				TargetAttributes = {
+					B1759A2B1E2FFA5A0096B381 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZP85M265RB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B1759A271E2FFA590096B381 /* Build configuration list for PBXProject "ZenState" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1759A231E2FFA590096B381;
+			productRefGroup = B1759A2D1E2FFA5A0096B381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1759A2B1E2FFA5A0096B381 /* ZenState */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1759A2A1E2FFA5A0096B381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1759A411E2FFA5A0096B381 /* Main.storyboard in Resources */,
+				B1759A431E2FFA5A0096B381 /* Assets.xcassets in Resources */,
+				B1759A461E2FFA5A0096B381 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1759A281E2FFA5A0096B381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1759A3E1E2FFA5A0096B381 /* GameViewController.m in Sources */,
+				B1759A341E2FFA5A0096B381 /* AppDelegate.m in Sources */,
+				B1759A3B1E2FFA5A0096B381 /* GameScene.m in Sources */,
+				B1759A311E2FFA5A0096B381 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1759A3F1E2FFA5A0096B381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1759A401E2FFA5A0096B381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1759A441E2FFA5A0096B381 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1759A451E2FFA5A0096B381 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1759A481E2FFA5A0096B381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1759A491E2FFA5A0096B381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1759A4B1E2FFA5A0096B381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZP85M265RB;
+				INFOPLIST_FILE = ZenState/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.tees.S6106112.ZenState;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1759A4C1E2FFA5A0096B381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZP85M265RB;
+				INFOPLIST_FILE = ZenState/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.tees.S6106112.ZenState;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1759A271E2FFA590096B381 /* Build configuration list for PBXProject "ZenState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1759A481E2FFA5A0096B381 /* Debug */,
+				B1759A491E2FFA5A0096B381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1759A4A1E2FFA5A0096B381 /* Build configuration list for PBXNativeTarget "ZenState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1759A4B1E2FFA5A0096B381 /* Debug */,
+				B1759A4C1E2FFA5A0096B381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1759A241E2FFA590096B381 /* Project object */;
+}
